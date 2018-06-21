@@ -1,11 +1,11 @@
 # 3d_printer_leveling_ABS
-Level Prusa i3 heatbed for ABS prints
+Level Anet A8 (Prusa i3 clone) heatbed
 
 1) Run this gcode
 
-2) Printer heats to 255 °C / 110 °C (that+s how I print
+2) Printer heats to hotend and bed temperature
 
-3) Printer goes to 0;0;0.1 mm
+3) Printer goes to -10;0;0.1 mm
 
 4) Use positioning buttons and feeler gauge to level the bed
 

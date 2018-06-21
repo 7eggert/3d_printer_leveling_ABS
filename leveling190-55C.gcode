@@ -11,12 +11,12 @@ G28 ; home all axes
 G1 Z5 F5000 ; lift nozzle
 
 M104 S0; extruder temp off
-M190 S40 ; wait for bed temperature 40
-M104 S210 ; set temperature
+M190 S30 ; wait for bed temperature 30
+M104 S190 ; set temperature
 M190 S55 ; wait for bed temperature 55
 G28 ; home all axes
 G1 Z5 F5000 ; lift nozzle
-M109 S210 ; wait for temperature to be reached
+M109 S190 ; wait for temperature to be reached
 
 G21 ; set units to millimeters
 G90 ; use absolute coordinates

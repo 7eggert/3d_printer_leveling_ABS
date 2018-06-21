@@ -14,7 +14,7 @@ M104 S0; extruder temp off
 M190 S100 ; wait for bed temperature 100
 M104 S240 ; extruder temp
 M190 S109 ; wait for bed temperature 109
-M104 S255 ; set temperature
+M104 S255 ; extruder temp
 M190 S110 ; wait for bed temperature 110
 G28 ; home all axes
 G1 Z5 F5000 ; lift nozzle
@@ -23,7 +23,7 @@ M109 S255 ; wait for temperature to be reached
 G21 ; set units to millimeters
 G90 ; use absolute coordinates
 M82 ; use absolute distances for extrusion
-G1 X-10 Y0 Z0.1 ; Goto bottom left position
+G1 X-10 Y0 Z0.1 ; Goto bottom left position (left of bed)
 
 M84     ; disable motors
 M70 P60000 Calibrating Z for 0.1 mm
